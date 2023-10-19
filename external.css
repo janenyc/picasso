@@ -33,7 +33,7 @@ h1, h2{
 }
 
 .small img {
-    width: 33%; 
+    width: 33.33%; 
 }
 
 .portrait {
@@ -41,7 +41,7 @@ h1, h2{
     top: 50%;
     left: 0px;
     border: 1px solid #000000; 
-    width: 100px;
+    width: 250px;
     border-radius: 50%;
     z-index: 1;
 
@@ -64,10 +64,13 @@ h1, h2{
         
     }
 
-    
     .small img {
         width: 33.33%;
         
+    }
+    .portrait{
+        width: 15%;
+        top: 300px
     }
     
 }
@@ -85,6 +88,10 @@ h1, h2{
 
     .small {
         width: 90%;
+    }
+    .portrait{
+        width: 20%;
+        top:150px
     }
    
 }
